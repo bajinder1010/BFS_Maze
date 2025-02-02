@@ -20,11 +20,6 @@ class Menu {
     dropdown.appendChild(bfsOption);
 
     const label = document.createElement("label");
-    //label.style.minWidth = "250px";
-    //label.style.boxSizing = "border-box";
-    //label.style.top = "20px";
-    //label.style.position = "relative";
-    //label.style.alignItems = "center";
 
     // Append dropdown to label
     label.appendChild(dropdown);
@@ -37,7 +32,7 @@ class Menu {
 
     // You can add more algorithms here in the future
 
-    this.menuElement.appendChild(label);
+    //this.menuElement.appendChild(label);
     this.menuElement.appendChild(playButton);
     this.menuElement.appendChild(resetButton);
   }

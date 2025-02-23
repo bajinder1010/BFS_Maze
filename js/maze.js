@@ -174,8 +174,8 @@ class Maze {
     }
     if (found) {
       await this.animatePath(path);
-      this.isRunning = false;
     }
+    this.isRunning = false;
   }
 
   delay(ms) {
